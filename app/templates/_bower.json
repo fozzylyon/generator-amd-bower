@@ -1,0 +1,23 @@
+{
+  "name": "<%= _.slugify( appname ) %>",
+  "main": "<%= _.classify( appname ) %>.js",
+  "version": "0.1.5",
+  "homepage": "https://github.com/School-Improvement-Network/<%= _.slugify( appname ) %>",
+  "authors": [
+    "fozzylyon <fozzylyon@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "lodash": "2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "chai": "~1.7.2",
+    "requirejs": "2.1.8"
+  }
+}

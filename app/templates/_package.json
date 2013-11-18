@@ -1,0 +1,24 @@
+{
+  "name": "<%= _.slugify( appname ) %>",
+  "version": "0.1.0",
+  "description": "",
+  "main": "<%= _.classify( appname ) %>.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/School-Improvement-Network/<%= _.slugify( appname ) %>.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/School-Improvement-Network/<%= _.slugify( appname ) %>/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-requirejs": "0.4.x",
+    "grunt-contrib-uglify": "0.2.x",
+    "almond": "0.2.x"
+  }
+}
