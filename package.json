@@ -1,5 +1,5 @@
 {
-  "name": "generator-amd-bower-component",
+  "name": "generator-amd-bower",
   "version": "0.1.0",
   "description": "A generator for AMD bower components",
   "keywords": [
@@ -9,8 +9,8 @@
     "requirejs",
     "almond"
   ],
-  "homepage": "https://github.com/fozzylyon/generator-amd-bower-component",
-  "bugs": "https://github.com/fozzylyon/generator-amd-bower-component/issues",
+  "homepage": "https://github.com/fozzylyon/generator-amd-bower",
+  "bugs": "https://github.com/fozzylyon/generator-amd-bower/issues",
   "author": {
     "name": "James Lyon",
     "email": "fozzylyon@gmail.com",
@@ -19,7 +19,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fozzylyon/generator-amd-bower-component.git"
+    "url": "git://github.com/fozzylyon/generator-amd-bower.git"
   },
   "dependencies": {
     "yeoman-generator": "0.13.x"
